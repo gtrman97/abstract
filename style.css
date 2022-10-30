@@ -1,0 +1,114 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+header {
+  background-color: black;
+  height: 5.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#links {
+  width: 15rem;
+  display: flex;
+  /* border: solid 5px green; */
+  justify-content: center;
+  gap: 5%;
+}
+
+abbr {
+    text-decoration: none;
+}
+
+#links {
+    width: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: solid 2px palegreen; */
+}
+
+#links,
+#links a {
+  color: white;
+  font-size: larger;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#links #home, #links #help {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+#home::before {
+    content: '@';
+    color: white;
+}
+
+#help::before {
+    content: '| ';
+}
+
+#buttons button {
+  height: 2.5rem;
+  padding: 5px;
+  margin: 2.5px;
+  width: 7.5rem;
+  color: white;
+  border-radius: 5px;
+  font-weight: 400;
+}
+
+#submit {
+  background-color: black;
+  border: solid 1px white;
+}
+#sign-in {
+  background-color: blue;
+  border: solid 2px blue;
+}
+section {
+  width: 100%;
+  height: 23.25rem;
+  background-color: #dadbf1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+#search-bar {
+  width: 90%;
+  height: 15rem;
+  /* border: solid 2px blue; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10%;
+}
+#search-bar * {
+  width: 90%;
+  height: 3.5rem;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: normal;
+}
+
+input {
+    padding: 3.5%;
+    border: solid 1px black;
+    color: black;
+}
