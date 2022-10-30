@@ -89,17 +89,17 @@ section {
 }
 #search-bar {
   width: 90%;
-  height: 15rem;
+  height: 10rem;
   /* border: solid 2px blue; */
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  gap: 10%;
 }
 #search-bar * {
-  width: 90%;
+  width: 100%;
   height: 3.5rem;
+  font-weight: 500;
 }
 
 h1 {
@@ -111,6 +111,7 @@ input {
     padding: 3.5%;
     border: solid 1px black;
     color: black;
+    border-radius: 5px;
 }
 
 @media (max-width: 1200px){
