@@ -102,6 +102,17 @@ section {
   font-weight: 500;
 }
 
+#search-buttons {
+    display: flex;
+    gap: 15%;
+
+}
+
+#search-buttons button {
+    width: 2rem;
+    height: 2rem;
+}
+
 h1 {
     font-size: 50px;
     font-weight: normal;
