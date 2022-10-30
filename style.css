@@ -112,3 +112,9 @@ input {
     border: solid 1px black;
     color: black;
 }
+
+@media (max-width: 1200px){
+    #buttons {
+        visibility: hidden;
+    }
+}
